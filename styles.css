@@ -1,0 +1,74 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f0f5;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.todo-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+.task-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.due-date {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.priority {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  width: fit-content;
+}
+
+/* Priority colors */
+.high {
+  background-color: #fecaca; /* light red */
+  color: #b91c1c; /* dark red */
+}
+
+.low {
+  background-color: #fef9c3; /* light yellow */
+  color: #92400e; /* dark yellow/brown */
+}
+
+.medium {
+  background-color: #bbf7d0; /* light green */
+  color: #065f46; /* dark green */
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
